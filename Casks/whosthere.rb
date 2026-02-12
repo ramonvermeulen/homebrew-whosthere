@@ -3,7 +3,7 @@ cask "whosthere" do
   name "whosthere"
   desc "Local network discovery tool with an interactive Terminal User Interface (TUI) written in Go."
   homepage "https://github.com/ramonvermeulen/whosthere"
-  version "0.6.0"
+  version "0.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "whosthere" do
   on_macos do
     on_intel do
       url "https://github.com/ramonvermeulen/whosthere/releases/download/v#{version}/whosthere_#{version}_darwin_amd64.tar.gz"
-      sha256 "e841362eddf7329ca0561890112a1bcb3fa67c9480a97462e202eea154f8586a"
+      sha256 "e8e965e389fbe1228b2632d0da81842d76c155568562e241e470f52c1d324ed0"
     end
     on_arm do
       url "https://github.com/ramonvermeulen/whosthere/releases/download/v#{version}/whosthere_#{version}_darwin_arm64.tar.gz"
-      sha256 "848cf9ccde8e1af51b11839dae55495d8b92d298e162dffddf2d422724c76a85"
+      sha256 "15234095c82e62e385bed8d603f3173cb03ce554c53e22f66a0eb13fc8ee8422"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ramonvermeulen/whosthere/releases/download/v#{version}/whosthere_#{version}_linux_amd64.tar.gz"
-      sha256 "9a9942ae4a66ca970520e3e53395672efb4b66195c25d3e80623a315afbdbfdc"
+      sha256 "73bd0e3d967287c7c1cb5a9d679d5c3820b7c168abbf67a33ce7b14ecd61761d"
     end
     on_arm do
       url "https://github.com/ramonvermeulen/whosthere/releases/download/v#{version}/whosthere_#{version}_linux_arm64.tar.gz"
-      sha256 "84e5c76ac7c54691e4094912330dec83f459db18ec87a36aad1bbc0619b0dde4"
+      sha256 "7bf10ea17230635369740effa039a91da9c7fb9d63df677cacc861af8ed84d5e"
     end
   end
 
